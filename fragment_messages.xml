@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".messages"
+    android:background="@color/white"
+    android:id="@+id/msg_frg">
+
+
+    <android.widget.Button
+        android:id="@+id/tg_msg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/outline_inbox_24"
+        android:drawablePadding="20dp"
+        android:lineHeight="30dp"
+        android:text="Turbocharger"
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+
+</RelativeLayout>

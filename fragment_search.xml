@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".search"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/search_box"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search for items or members">
+
+    </androidx.appcompat.widget.SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/outline_woman_24"
+            android:drawableTint="@color/teal_700"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="10dp"
+            android:lineHeight="30dp"
+            android:text="Women"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/baseline_man_24"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawableTint="@color/teal_700"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Men"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/baseline_child_care_24"
+            android:drawableTint="@color/teal_700"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Kids"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:drawableTint="@color/teal_700"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/baseline_tv_24"
+            android:drawableTint="@color/teal_700"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Entertainment"
+            android:textSize="20dp"
+            android:textAlignment="textStart"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/outline_pets_24"
+            android:drawableTint="@color/teal_700"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Pet care"
+            android:textAlignment="textStart"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

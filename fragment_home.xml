@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <androidx.appcompat.widget.SearchView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/search_box"
+    android:layout_marginBottom="20dp"
+    app:queryHint="Search for items or members"
+    app:iconifiedByDefault="false">
+
+    </androidx.appcompat.widget.SearchView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended for you"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="See all"
+                    android:textSize="17dp"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BDG"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See all"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/teal_700"
+                    android:textSize="17dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="140dp"
+                        android:layout_height="1.2in"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/outline_image_24">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="47dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="140dp"
+                            android:text="Details \nPrice"
+                            android:textAlignment="textStart"
+                            android:textColor="#656464"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Newsfeed"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="1.2in"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/outline_image_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Details \nPrice"
+                        android:textAlignment="textStart"
+                        android:textColor="#656464"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="1.2in">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/outline_image_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Details \nPrice"
+                        android:textAlignment="textStart"
+                        android:textColor="#656464"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="1.2in">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/outline_image_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Details \nPrice"
+                        android:textAlignment="textStart"
+                        android:textColor="#656464"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="1.2in">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/outline_image_24">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="140dp"
+                        android:text="Details \nPrice"
+                        android:textAlignment="textStart"
+                        android:textColor="#656464"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>

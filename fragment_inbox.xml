@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inbox"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        >
+
+    <android.widget.Button
+        android:id="@+id/msg_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:background="@color/white"
+        android:textColor="#A3A0A0"
+        />
+
+    <android.widget.Button
+        android:id="@+id/not_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:background="@color/white"
+        android:textColor="#A3A0A0"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp">
+
+
+        <android.widget.Button
+            android:id="@+id/tg_msg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/outline_inbox_24"
+            android:drawablePadding="20dp"
+            android:lineHeight="30dp"
+            android:text="Turbocharger"
+            android:textAlignment="textStart"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
